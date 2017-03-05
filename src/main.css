@@ -1,4 +1,6 @@
-
+body{
+  padding: 20px 40px 20px 40px;
+}
 .header {
   background: url(https://media.licdn.com/media/AAEAAQAAAAAAAAl-AAAAJDJiMmI3YjI4LWNhMjctNDcyNy1iNjkwLTI1MWJiZTRlZmZmOQ.jpg);
   background-attachment: fixed;
@@ -36,6 +38,7 @@
   z-index: 1;
   text-align: center;
   font-size: 32px;
+  font-weight: bold;
 }
 
 .header > header > h2 {
@@ -45,8 +48,35 @@
   z-index: 1;
   text-align: center;
   font-size: 24px;
+  font-weight: bold;
 }
 .tagline{
   padding: 20px 20px 20px 20px;
-  background-color: #b3cce6;
+  background-color: #e3e3e3;
+}
+.tagline h3{
+  font-size:24px;
+  font-weight: bold;
+}
+.tagline p{
+  font-size:18px;
+}
+.tagline ul li{
+  font-size: 14px;
+}
+.skills{
+  padding: 20px 20px 20px 20px;
+  background-color: #3399ff;
+  color: white;
+}
+.skills h3{
+  font-size:24px;
+  font-weight: bold;
+}
+.skills p{
+  font-size:18px;
+  font-weight: bold;
+}
+.skills ul li{
+  font-size: 14px;
 }
